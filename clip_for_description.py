@@ -8,8 +8,8 @@ model = CLIPModel.from_pretrained("openai/clip-vit-base-patch32")
 processor = CLIPProcessor.from_pretrained("openai/clip-vit-base-patch32")
 
 # Path to the folder with the 30 frames
-frames_folder = "sampled_frames"
-frames = sorted([os.path.join(frames_folder, f) for f in os.listdir(frames_folder) if f.endswith(".jpg")])
+frames_folder = "unique_frames"
+frames = sorted([os.path.join(frames_folder, f) for f in os.listdir(frames_folder) if f.endswith(".png")])
 
 # Placeholder to store descriptions
 frame_descriptions = []
@@ -30,10 +30,7 @@ for frame_path in frames:
     text_inputs = processor(text=prompts, return_tensors="pt", padding=True)
     text_features = model.get_text_features(**text_inputs)
     text_features = text_features / text_features.norm(dim=-1, keepdim=True)
-    # Extract image embeddings
-    with torch.no_grad():
-        image_features = model.get_image_features(**inputs)
-
+    
     # Compute similarity
     similarities = torch.matmul(image_features, text_features.T)
     best_prompt_idx = similarities.argmax().item()
