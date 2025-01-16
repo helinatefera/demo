@@ -1,0 +1,143 @@
+[
+    {
+      "image_path": "images/cat.jpg",
+      "text": "A black cat playing with a ball of yarn.",
+      "qa": [
+        {
+          "question": "What color is the cat?",
+          "answer": "Black"
+        },
+        {
+          "question": "What is the cat playing with?",
+          "answer": "A ball of yarn"
+        }
+      ]
+    },
+    {
+      "image_path": "images/dog.jpg",
+      "text": "A golden retriever running on the beach.",
+      "qa": [
+        {
+          "question": "What type of dog is this?",
+          "answer": "Golden retriever"
+        },
+        {
+          "question": "Where is the dog running?",
+          "answer": "On the beach"
+        }
+      ]
+    },
+    {
+      "image_path": "images/flower.jpg",
+      "text": "A vibrant red rose blooming in the garden.",
+      "qa": [
+        {
+          "question": "What color is the flower?",
+          "answer": "Red"
+        },
+        {
+          "question": "Where is the flower located?",
+          "answer": "In the garden"
+        }
+      ]
+    },
+    {
+      "image_path": "images/house.jpg",
+      "text": "A two-story house with a white picket fence.",
+      "qa": [
+        {
+          "question": "How many stories does the house have?",
+          "answer": "Two stories"
+        },
+        {
+          "question": "What color is the fence?",
+          "answer": "White"
+        }
+      ]
+    },
+    {
+      "image_path": "images/car.jpg",
+      "text": "A red sports car parked on the street.",
+      "qa": [
+        {
+          "question": "What color is the car?",
+          "answer": "Red"
+        },
+        {
+          "question": "Where is the car parked?",
+          "answer": "On the street"
+        }
+      ]
+    },
+    {
+      "image_path": "images/tree.jpg",
+      "text": "A tall oak tree in a forest.",
+      "qa": [
+        {
+          "question": "What type of tree is it?",
+          "answer": "Oak"
+        },
+        {
+          "question": "Where is the tree located?",
+          "answer": "In a forest"
+        }
+      ]
+    },
+    {
+      "image_path": "images/boat.jpg",
+      "text": "A sailboat floating on a calm lake.",
+      "qa": [
+        {
+          "question": "What is the boat doing?",
+          "answer": "Floating"
+        },
+        {
+          "question": "Where is the boat floating?",
+          "answer": "On a calm lake"
+        }
+      ]
+    },
+    {
+      "image_path": "images/plane.jpg",
+      "text": "An airplane flying above the clouds.",
+      "qa": [
+        {
+          "question": "What is flying in the sky?",
+          "answer": "An airplane"
+        },
+        {
+          "question": "Where is the airplane flying?",
+          "answer": "Above the clouds"
+        }
+      ]
+    },
+    {
+      "image_path": "images/mountain.jpg",
+      "text": "A snow-covered mountain with a clear blue sky.",
+      "qa": [
+        {
+          "question": "What is the mountain covered with?",
+          "answer": "Snow"
+        },
+        {
+          "question": "What color is the sky?",
+          "answer": "Blue"
+        }
+      ]
+    },
+    {
+      "image_path": "images/ball.jpg",
+      "text": "A yellow ball bouncing on the grass.",
+      "qa": [
+        {
+          "question": "What color is the ball?",
+          "answer": "Yellow"
+        },
+        {
+          "question": "Where is the ball bouncing?",
+          "answer": "On the grass"
+        }
+      ]
+    }
+  ]
+  

@@ -1,7 +1,7 @@
 import cv2
 import os
 
-video_path = "video/v.mp4"
+video_path = "video/video0.mp4"
 output_folder = "sampled_frames"
 
 # Create output folder
@@ -10,7 +10,7 @@ os.makedirs(output_folder, exist_ok=True)
 # Open video
 cap = cv2.VideoCapture(video_path)
 total_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
-
+print(f"Total frames in video: {total_frames}")
 # Calculate interval to sample 30 frames
 frame_interval = total_frames // 30
 
